@@ -1,31 +1,40 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 
 
-
 @media (min-width:900px){
   .contenido{
     background-color: #02010a;
     max-width: 900px;
-    margin-left: 325px;}
+    margin-left: 180px;}
 
     header{
       height:60px;
       background-color: #5b7989;
-    animation: miSlideIn 1s;}
+      animation: miSlideIn 1s;}
 
-    #contenedor2{
+    #contenedor1{
       flex-direction: row;
       display: flex;
-
-
     }
 
-    #imagen2{
-      max-width: 50%;
+    #imagen4{
+      max-width: 33%;
     }
 
-    #imagen3{
-      max-width: 50%;
+    #imagen5{
+      max-width: 33%;
+    }
+    #imagen6{
+      max-width: 33%;
+    }
+    #imagen7{
+      max-width: 33%;
+    }
+    #imagen8{
+      max-width: 33%;
+    }
+    #imagen9{
+      max-width: 33%;
     }
 
     .contacto{
@@ -63,20 +72,14 @@
 
  }
 
- .contenedor1{
+
+  #contenedor1{
   flex-flow: column;
   }
-
-  .contenedor1 img{
-
-  flex-flow: column;
-  }
-
-  #contenedor2{
-  flex-flow: column;
-  }
-  #contenedor2 img{
+  #contenedor1 img{
     width: 90%;
+    flex-flow: column;
+    margin-bottom: 15px;
   }
   .contacto{
     text-align: left;
@@ -101,6 +104,7 @@
   }
 }
 
+
 header {
   font-family: verdana;
   background-color:  #5b7989;
@@ -116,8 +120,7 @@ header {
 
 header .logo{
   text-shadow: 2px 2px #02010a;
-
-  font-size: 30px;
+  font-size: 25px;
   line-height: 55px;
   padding-left: 20px;
   font-family: Dancing Script;
@@ -126,7 +129,7 @@ header .logo{
 
 header nav{
 
-font-size: 23px;
+font-size: 20px;
 line-height: 17px;
 padding: 20px 0px;
 
@@ -143,6 +146,7 @@ header nav a{
 #actual{
   text-decoration: none;
 }
+
 footer{
   background-color: #C6d5c5;
   display:flex;
@@ -150,100 +154,67 @@ footer{
   flex-wrap: wrap;
 
 }
-.contenedor1 img{
-  box-shadow: 2px 2PX 2PX 2PX #02010a;
-}
-#contenedor2 img{
-  box-shadow: 2px 2PX 2PX 2PX #02010a;
-}
-.contenedor1{
-  background-color:#82c3a6;
-  text-align: center;
-  padding:40px;
-
-}
-
-.imagen1 img{
-  width:90%;
-}
-
-#contenedor2{
+#contenedor1{
 background-color: #d5c75f;
 padding: 20px;
+padding-left: 50px;
+padding-top: 35px;
 overflow: hidden;
 display: flex;
 flex-wrap: wrap;
+}
+
+#contenedor1 img{
+  box-shadow: 2px 2PX 2PX 2PX #02010a;
+}
+
+#imagen4 img{
+  width: 90%;
+  height: 90%;
+  filter: blur(10px);
 
 }
 
-#imagen2 {
-
-
-  text-align: center;
-  font-family: dancing script;
-  text-decoration: underline;
-
-
+#imagen5 img{
+  width: 90%;
+  height: 90%;
+  filter: grayscale(100%);
 }
-
-#imagen3 {
-
-
-  text-align: center;
-  font-family: dancing script;
-  text-decoration: underline;
-
-
+#imagen6 img{
+  width: 90%;
+  height: 90%;
+  filter: sepia(90%);
 }
-#imagen2 img{
-
-  width: 80%;
-  height: 80%;
-
+#imagen7 img{
+  width: 90%;
+  height: 90%;
+  filter: grayscale(100%);
 }
-#imagen3 img{
-
-  width: 80%;
-  height: 80%;
+#imagen8 img{
+  width: 90%;
+  height: 90%;
 }
-
-
-#imagen2 img:hover{
-  transform: rotatez(10deg);
-  box-shadow: 2px 2px 2px 2px #82c3a6;
-}
-#imagen3 img:hover{
-transform: translate(20px,-5px);
-box-shadow: 2px 2px 2px 2px #82c3a6;
+#imagen9 img{
+  width: 90%;
+  height: 90%;
+  filter: grayscale(100%);
 }
 
 .contacto {
-
   font-family: dancing script;
-  font-size: 20px;
-
+  font-size: 15px;
 }
-
 .terminos{
-
-
   font-family: dancing script;
-  font-size: 20px;
-
+  font-size: 15px;
 }
 .redes{
-
-
   font-family: dancing script;
-  font-size: 20px;
-
+  font-size: 15px;
 }
 .derechos{
-
-
   font-family: dancing script;
-  font-size: 20px;
-
+  font-size: 15px;
 }
 
 .redes img{
